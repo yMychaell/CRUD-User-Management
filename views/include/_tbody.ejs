@@ -1,0 +1,23 @@
+<% for (let i = 0; i < user.length; i++) { %>
+<tr>
+  <td>  <%= user[i].name %> </td>
+  <td>  <%= user[i].email %> </td>
+  <td>  <%= user[i].gender %> </td>
+  <td>  <%= user[i].status %> </td>
+  <td>
+    <div class="actions">
+      <div class="border-shadow">
+        <a href='/update-user?id=<%= user[i]._id %>' class="update text-gradient">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </a> 
+      </div>
+
+      <div class="border-shadow">
+        <a class="delete text-gradient" data-id="<%= user[i]._id %>" >
+          <i class="fa-solid fa-trash-can"></i>
+        </a> 
+      </div>
+    </div> 
+  </td>
+</tr>
+<% } %>

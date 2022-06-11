@@ -1,0 +1,41 @@
+<form id="add-user">
+    <div class="new-user">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="hidden" name="id" value=""/>
+            <input type="text" name="name" value="" required="required"/>
+        </div>
+
+        <div class="form-group">
+          <label for="email" "text-gray">Email</label>
+          <input type="email" id="email" required="required" name="email" placeholder="example@gmail.com">
+        </div>
+
+        <div class="form-group">
+          <label for="gender"  class="text-gray">Gender</label>
+          <div class="radio inline">
+            <input id="radio-2" type="radio" name="gender" value="Male"> 
+            <label for="radio-2" class="radio-label">Male</label>
+          </div>
+          <div class="radio inline">
+            <input id="radio-3" type="radio" name="gender" value="Female"> 
+            <label for="radio-3" class="radio-label">Female</label>
+          </div>
+
+        <div class="form-group">
+          <label for="status" class="text-gray">Status</label>
+          <div class="radio inline">
+            <input id="radio-4" type="radio" name="status" value="Active"> 
+            <label for="radio-4" class="radio-label">Active</label>
+          </div>
+          <div class="radio inline">
+            <input id="radio-5" type="radio" name="status" value="Inactive"> 
+            <label for="radio-5" class="radio-label">Inactive</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="liveAlertBtn" class="btn-form title-dark update">Save</button>
+        </div>
+    </div> 
+</form>
