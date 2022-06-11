@@ -1,0 +1,36 @@
+{
+  "name": "crud_ejs_user",
+  "version": "1.0.0",
+  "description": "CRUD with express, mongodb and ejs.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yMychaell/CRUD-User-Management.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "Mychael Dourado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yMychaell/CRUD-User-Management/issues"
+  },
+  "homepage": "https://github.com/yMychaell/CRUD-User-Management#readme",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6"
+  }
+}
