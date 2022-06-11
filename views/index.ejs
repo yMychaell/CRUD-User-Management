@@ -1,0 +1,34 @@
+<%- include('./include/_header') %>
+    <main class="home">
+      <div class="container">
+        <div>
+          <a href="/add-user" class="btn-new-user text-gradient border-shadow">New User
+            <span class="text-gradient"><i class="fas fa-user-plus text-gradient"></i>
+            </span>
+          </a>
+        </div> 
+
+        <form action="/">
+          <div class="table table-responsive">
+            <table class="table align-middle text-center">
+              <thead class="table-dark">
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">@Email</th>
+                  <th scope="col">Gender</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Actions</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider border-top-color">
+                <%- include('./include/_tbody') %>
+              </tbody>
+            </table>
+          </div>
+
+        </form>
+      </div>
+    </main> 
+
+<%- include('./include/_footer') %>
+
