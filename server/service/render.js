@@ -4,7 +4,7 @@ const home = async (req, res) => {
 
   try {
 
-    const response = await axios.get("http://localhost:4000/api/users")
+    const response = await axios.get("crud-user-management.herokuapp.com/api/users")
 
     const userData = response.data
 
